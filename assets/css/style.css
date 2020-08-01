@@ -41,7 +41,7 @@
 
 /*===== BASE =====*/
 main {
-  background-image: linear-gradient(180deg, #fff, #ddd6f3, #a1d9ee)
+  background-image: linear-gradient(180deg, #fff, #EEE2DC)
 }
 
 .body-margin {
@@ -90,7 +90,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  color: #AC3B61;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -105,7 +105,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: #AC3B61;
 }
 
 .section {
@@ -230,28 +230,23 @@ img {
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  color: #AC3B61
 }
 
 .home__title-color {
-  color: var(--first-color);
+  color: #123C69;
 }
 
 .home_paragraph {
   margin-bottom: var(--mb-5);
-}
-
-.home__img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 295px;
+  color: #EDC7B7;
 }
 
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
+  background-color: #EDC7B7;
+  color: #AC3B61;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
@@ -267,12 +262,17 @@ img {
   text-align: center;
 }
 
-.about__subtitle {
-  margin-bottom: var(--mb-2);
-}
-
 .about__img {
   justify-self: center;
+}
+
+.about__subtitle {
+  margin-bottom: var(--mb-2);
+  color: #BAB2B5;
+}
+
+.about__text {
+  color: #123C69;
 }
 
 .about__img img{
@@ -288,10 +288,12 @@ img {
 
 .skills__subtitle {
   margin-bottom: var(--mb-2);
+  color: #BAB2B5
 }
 
 .skills__text {
   margin-bottom: var(--mb-4);
+  color: #123C69
 }
 
 .skill-bullet-list {
