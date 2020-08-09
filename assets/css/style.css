@@ -459,13 +459,13 @@ img {
   margin: 0 7px;
 }
 
-#credit {
+.credit {
   color: #BAB2B5;
   text-decoration: underline;
   font-weight: 900;
 }
 
-#credit:hover {
+.credit:hover {
   cursor: pointer;
 }
 
