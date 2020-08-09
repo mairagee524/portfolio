@@ -156,7 +156,7 @@ img {
     width: 50%;
     /* height: 100%; */
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: #BAB2B5 ;
     transition: .5s; 
   }
 }
@@ -173,7 +173,7 @@ img {
 
 .nav__link {
   position: relative;
-  color: #fff;
+  color: #AC3B61;
 }
 
 .nav__link:hover {
@@ -187,7 +187,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: #AC3B61;
 }
 
 .nav__logo {
