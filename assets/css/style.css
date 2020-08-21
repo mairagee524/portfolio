@@ -4,12 +4,10 @@
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
-  --font-semi: 600;
 }
 
 /*===== Colores =====*/
 :root {
-  --first-color: #4070F4;
   --second-color: #0E2431;
 }
 
@@ -23,9 +21,7 @@
 
 /*===== Margenes =====*/
 :root {
-  --mb-1: 0.5rem;
   --mb-2: 1rem;
-  --mb-3: 1.5rem;
   --mb-4: 2rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
@@ -33,9 +29,6 @@
 
 /*===== z index =====*/
 :root {
-  --z-back: -10;
-  --z-normal: 1;
-  --z-tooltip: 10;
   --z-fixed: 100;
 }
 
@@ -68,7 +61,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
+  color: #123C69;
 }
 
 h1, h2, p {
@@ -173,7 +166,8 @@ img {
 
 .nav__link {
   position: relative;
-  color: #AC3B61;
+  color: #123C69;
+  font-weight: 600;
 }
 
 .nav__link:hover {
@@ -516,10 +510,6 @@ img {
 
   .nav__toggle {
     display: none;
-  }
-
-  .nav__link {
-    color: var(--second-color);
   }
 
   .home {
