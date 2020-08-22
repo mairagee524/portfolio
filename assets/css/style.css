@@ -291,7 +291,10 @@ img {
 }
 
 .skill-bullet-list {
-  max-width: 50%;
+  max-width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .list-of-skills-no-pic {
@@ -310,6 +313,8 @@ img {
 /* ===== WORK =====*/
 .portfolio-blurb{
   text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .container {
@@ -406,7 +411,7 @@ img {
 }
 
 .quote {
-  line-height: 3;
+  line-height: 25px;
   text-align: center;
   margin-top: 20px;
 }
