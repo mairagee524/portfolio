@@ -53,7 +53,8 @@ sr.reveal('.image-group',{interval: 200});
 sr.reveal('.list-of-skills-no-pic',{delay: 600});
 
 /*SCROLL WORK*/
-// sr.reveal('.work__img',{interval: 200}); 
+sr.reveal('.portfolio-blurb',{interval: 400}); 
+sr.reveal('.work__img',{interval: 400}); 
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200});
