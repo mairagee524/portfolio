@@ -291,10 +291,19 @@ img {
 }
 
 .skill-bullet-list {
-  max-width: 20%;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 75%;
+  margin-left: 25px;
 }
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.list-of-skills-no-pic {
+  list-style: circle;
+}
+
 
 .tooltip {
   position: relative;
@@ -317,15 +326,6 @@ img {
   /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
   opacity: 0;
   transition: opacity 1s;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-.list-of-skills-no-pic {
-  list-style: circle;
 }
 
 .image-group {
