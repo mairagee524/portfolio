@@ -111,7 +111,7 @@ img {
   display: grid;
   grid-template-columns: 100%;
   grid-column-gap: 2rem;
-  width: calc(100% - 2rem);
+  width: calc(100% - 20rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
@@ -356,7 +356,7 @@ img {
 }
 
 .container {
-  row-gap: 2rem;
+  row-gap: 5rem;
 }
 
 .container .work__img {
