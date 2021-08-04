@@ -111,7 +111,7 @@ img {
   display: grid;
   grid-template-columns: 100%;
   grid-column-gap: 2rem;
-  width: calc(100% - 20rem);
+  width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
@@ -192,6 +192,7 @@ img {
   color: var(--second-color);
   font-size: 1.5rem;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 /*Active menu*/
@@ -632,8 +633,14 @@ img {
   }
 }
 
-@media screen and (min-width: 1024px){
-  .bd-grid{
+@media screen and (max-width: 900px) {
+  .bd-grid {
+    width: calc(100% - 2rem);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bd-grid {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
